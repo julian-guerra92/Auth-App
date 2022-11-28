@@ -1,0 +1,22 @@
+
+<div class="dashboard">
+<h1>Dashboard</h1>
+<hr>
+
+<p>
+    This page only works if you are authenticated!
+</p>
+
+<h4>User info</h4>
+<pre>{{user | json}}</pre>
+
+<div class="wrap-login100-form-btn">
+    <div class="login100-form-bgbtn"></div>
+    <button class="login100-form-btn"
+            type="submit"
+            (click)="logout()">
+        Logout
+    </button>
+</div>
+</div>
+
